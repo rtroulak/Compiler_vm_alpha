@@ -1,0 +1,55 @@
+1  | ASSIGN              number:0 		global:0 		
+2  | ASSIGN              global:0 		global:1 		
+3  | ASSIGN              boolean:1 		global:2 		
+4  | ASSIGN              global:2 		global:3 		
+5  | ASSIGN              number:1 		global:2 		
+6  | ASSIGN              global:2 		global:0 		
+7  | ASSIGN              number:2 		global:2 		
+8  | ASSIGN              global:2 		global:4 		
+9  | JEQ_ASSIGN          global:3 		boolean:0 		global:5 		
+10 | JEQ                 global:5 		boolean:0 		number:3 		
+11 | JUMP                number:4 		
+12 | ASSIGN              number:5 		global:6 		
+13 | ASSIGN              global:6 		global:7 		
+14 | JUMP                number:6 		
+
+
+
+
+
+
+
+
+-----------------------------------------------------
+[global]
+-----------------------------------------------------
+0	::	_t1
+1	::	a
+2	::	_t2
+3	::	b
+2	::	_t2
+0	::	x
+2	::	_t2
+4	::	y
+3	::	b
+5	::	_t3
+6	::	_t7
+7	::	q
+
+
+
+
+
+
+
+
+-----------------------------------------------------
+[number]
+-----------------------------------------------------
+0	::	2.000000
+1	::	50.000000
+2	::	10.000000
+3	::	12
+4	::	-666
+5	::	5.000000
+6	::	9

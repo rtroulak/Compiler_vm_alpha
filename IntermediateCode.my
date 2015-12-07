@@ -1,0 +1,14 @@
+1: ASSIGN 2.000000 _t1 
+2: ASSIGN _t1 a 
+3: ASSIGN false _t2 
+4: ASSIGN _t2 b 
+5: ASSIGN 50.000000 _t2 
+6: ASSIGN _t2 x 
+7: ASSIGN 10.000000 _t2 
+8: ASSIGN _t2 y 
+9: IF_EQ b true _t3 
+10: IF_EQ 12 _t3 true 
+11: JUMP 15 
+12: ASSIGN 5.000000 _t7 
+13: ASSIGN _t7 q 
+14: JUMP 9 
